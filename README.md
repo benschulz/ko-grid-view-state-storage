@@ -1,0 +1,1 @@
+A ko-grid extension which persists the view state (e.g. column widths).

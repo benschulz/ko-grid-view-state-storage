@@ -1,0 +1,21 @@
+{
+  "name": "ko-grid-view-state-storage",
+  "main": "dist/ko-grid-view-state-storage.js",
+  "description": "A ko-grid extension which persists the view state (e.g. column widths).",
+  "authors": ["Ben Schulz (https://github.com/benschulz)"],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "ko-grid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/benschulz/ko-grid-view-state-storage.git"
+  },
+  "dependencies": {
+    "ko-grid": "benschulz/ko-grid",
+    "ko-grid-view-modes": "benschulz/ko-grid-view-modes"
+  },
+  "devDependencies": {
+    "onefold-js": "benschulz/onefold-js"
+  }
+}
