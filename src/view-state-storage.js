@@ -41,9 +41,9 @@ define(['module', 'onefold-js', 'ko-grid', viewModes], function (module, js, koG
 
     /**
      * @constructor
-     * @extends koGrid.extensions.viewStateStorage.BindableKeyValueStore
+     * @extends de.benshu.ko.grid.extensions.viewStateStorage.BindableKeyValueStore
      *
-     * @param {koGrid.extensions.viewStateStorage.KeyValueStore} keyValueStorage
+     * @param {de.benshu.ko.grid.extensions.viewStateStorage.KeyValueStore} keyValueStorage
      * @param {function():string} prefixProvider
      * @param {function():boolean} inModeTransition
      */
@@ -102,7 +102,7 @@ define(['module', 'onefold-js', 'ko-grid', viewModes], function (module, js, koG
 
     /**
      * @constructor
-     * @extends koGrid.extensions.viewStateStorage.KeyValueStore
+     * @extends de.benshu.ko.grid.extensions.viewStateStorage.KeyValueStore
      */
     function LocalStorageKeyValueStore() {
         this.read = function (key) {
